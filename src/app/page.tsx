@@ -8,16 +8,16 @@ import WhatWeDo from "@/ui/WhatWeDo";
 import PickServices from "@/ui/services/PickServices";
 
 export default function Home() {
-  return (
-    <main>
-      <Banner />
-      <PickServices />
-      <CoreServices />
-      <Clients />
-      <WhatWeDo />
-      <BasicProducts />
-      <HighPerformance />
-      <Projects />
-    </main>
-  );
+	return (
+		<main>
+			<Banner />
+			<PickServices />
+			<CoreServices />
+			<Clients />
+			<WhatWeDo />
+			<BasicProducts />
+			<HighPerformance />
+			{/* <Projects /> */}
+		</main>
+	);
 }
