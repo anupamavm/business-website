@@ -17,7 +17,7 @@ export default function Home() {
 			<WhatWeDo />
 			<BasicProducts />
 			<HighPerformance />
-			{/* <Projects /> */}
+			<Projects />
 		</main>
 	);
 }
